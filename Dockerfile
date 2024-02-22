@@ -9,4 +9,4 @@ RUN unzip healet.zip
 RUN rm -rf healet.zip
 RUN cp -Rf ./healet-html/* .
 RUN rm -rf healet-html
-RUN . /usr/local/apache2/htdocs
+RUN . /var/www/html
